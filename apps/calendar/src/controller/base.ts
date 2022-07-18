@@ -33,8 +33,7 @@ export function getDateRange(start: TZDate, end: TZDate) {
 
 export function isAllday(event: EventModel) {
   return (
-    event.isAllday ||
-    (event.category === 'time' && Number(event.end) - Number(event.start) > MS_PER_DAY)
+    event.isAllday
   );
 }
 
