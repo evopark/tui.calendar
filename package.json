@@ -76,5 +76,7 @@
   ],
   "dependencies": {
     "tui-code-snippet": "^2.3.3"
-  }
+  },
+  "version": "0.1.0",
+  "private": true
 }
