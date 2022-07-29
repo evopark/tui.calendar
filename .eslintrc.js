@@ -37,7 +37,7 @@ module.exports = {
   globals: {
     fixture: true,
   },
-  ignorePatterns: ['**/*.d.ts'],
+  ignorePatterns: ['*'],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/ban-types': 0,
